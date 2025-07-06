@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="width=device-width, initial-scale=1.0">
+    <title>Beltza Academia de Jiujitsu y Boxeo </title>
+    <meta name="description" content="Beltza Academia de Jiujitsu y Boxeo en Gijón. Aprende artes marciales y deportes de contacto con profesionales. ¡Únete hoy!" />
+    <meta name="keywords" content="jiujitsu, bjj, grappling, boxeo, gimnasio, Gijón, artes marciales, deportes de contacto" />
+    <link rel="canonical" href="https://www.beltza.es/index.html" />
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/beltza-32x32.png">
+
+</head>
+<body class="font-sans bg-gray-100">
+    <!-- navigation -->
+    <nav class="bg-black text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+                    <div>
+                        <a href="#home">
+                         <img src="images/beltza-512x512.png" alt="Gimnasio Beltza jiujitsu boxeo" class="h-16 w-auto object-contain">
+                        </a>
+                    </div>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="hover:text-red-500 transition">Inicio</a>
+                <a href="#about" class="hover:text-red-500 transition">Sobre nosotros</a>
+                <a href="#programs" class="hover:text-red-500 transition">Actividades</a>
+                <a href="#schedule" class="hover:text-red-500 transition">Horario</a>
+                <a href="#contact" class="hover:text-red-500 transition">Contacto</a>
+                <a href="https://www.instagram.com/beltza_dolores/" class="text-gray 400 hover:text-red-600">
+                  <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            <button class="md:hidden text-white focus:outline-none" id="mobile-menu-button">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div class="md:hidden hidden bg-black py-2 px-4" id="mobile-menu">
+            <div class="flex flex-col space-y-3">
+                <a href="#home" class="hover:text-red-500 transition">Inicio</a>
+                <a href="#about" class="hover:text-red-500 transition">Sobre nosotros</a>
+                <a href="#programs" class="hover:text-red-500 transition">Actividades</a>
+                <a href="#schedule" class="hover:text-red-500 transition">Horarios</a>
+                <a href="#contact" class="hover:text-red-500 transition">Contacto</a>
+                <a href="https://www.instagram.com/beltza_dolores/" class="text-gray-400 hover:text-red-600">
+                  <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero-bg min-h-screen flex items-center justify-center text-white fade-in">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">APRENDE L'ARTE DE LLUCHAR</h1>
+            <p class="text-xl md:text-2xl mb-8">Brazilian Jiujitsu • Boxeu</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#contact" class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 pulse">
+                    PRUEBA TU PRIMERA CLASE
+                </a>
+                <a href="#programs" class="bg-transparent hover:bg-white hover:text-black border-2 border-white text-white font-bold py-3 px-8 rounded-full transition duration-300">
+                    NUESTRES ACTIVIDAES
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Horarios --> -->
+<section id="schedule" class="py-20 bg-gray-100">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">HORARIOS</h2>
+      <div class="w-24 h-1 bg-red-600 mx-auto"></div>
+    </div>
+
+    <div class="overflow-x-auto">
+      <table class="min-w-[700px] w-full bg-white rounded-lg shadow-lg text-center">
+        <thead class="bg-gray-800 text-white text-xs sm:text-sm">
+          <tr>
+            <th class="p-4 font-bold">Hora</th>
+            <th class="p-4 font-bold">Lunes</th>
+            <th class="p-4 font-bold">Martes</th>
+            <th class="p-4 font-bold">Miércoles</th>
+            <th class="p-4 font-bold">Jueves</th>
+            <th class="p-4 font-bold">Viernes</th>
+            <th class="p-4 font-bold">Sábado</th>
+          </tr>
+        </thead>
+        <tbody class="text-gray-800 text-xs sm:text-sm divide-y divide-gray-200">
+          <tr>
+            <td class="p-4 font-semibold">10:30 - 11:30</td>
+            <td class="p-4">Boxeo</td>
+            <td class="p-4">JiuJitsu/Grappling</td>
+            <td class="p-4">Boxeo</td>
+            <td class="p-4">JiuJitsu/Grappling</td>
+            <td class="p-4">Boxeo</td>
+            <td class="p-4">Open Mat</td>
+          </tr>
+          <tr>
+            <td class="p-4 font-semibold">18:00 - 19:00</td>
+            <td class="p-4"></td>
+            <td class="p-4"></td>
+            <td class="p-4">JiuJitsu/Grappling</td>
+            <td class="p-4"></td>
+            <td class="p-4"></td>
+            <td class="p-4">-</td>
+          </tr>
+          <tr>
+            <td class="p-4 font-semibold">18:30 - 19:30</td>
+            <td class="p-4"></td>
+            <td class="p-4">JiuJitsu/Grappling</td>
+            <td class="p-4"></td>
+            <td class="p-4">JiuJitsu/Grappling</td>
+            <td class="p-4"></td>
+            <td class="p-4">-</td>
+          </tr>
+          <tr>
+            <td class="p-4 font-semibold">20:00 - 21:00</td>
+            <td class="p-4">Boxeo</td>
+            <td class="p-4"></td>
+            <td class="p-4">Boxeo</td>
+            <td class="p-4"></td>
+            <td class="p-4">Boxeo</td>
+            <td class="p-4">-</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- ACTIVIDADES -->
+    <section id="programs" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Les nuestres actividaes</h2>
+                <div class="w-24 h-1 bg-red-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                    <div>
+                         <img src="images/jiujitsu-entrenamiento-beltza.jpg" alt="Gimnasio clase de jiujitsu en gimnasio beltza" class="w-full h-48 object-cover">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Jiu-Jitsu</h3>
+                        <p class="text-gray-600 mb-4">Entrenamiento de jiujitsu en Gijón, la base de las artes marciales mixtas (MMA). Mejora tu defensa personal y tu forma física con una disciplina que revolucionó los deportes de contacto.</p>
+                        <div class="flex justify-between items-center">
+                            <a href="#contact" class="text-red-600 hover:text-red-800 font-semibold">Más información →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                    <div>
+                         <img src="images/boxeo-pelea.jpg" alt="Boxeo entrenamiento en  gimnasio beltza" class="w-full h-48 object-cover">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Boxeo</h3>
+                        <p class="text-gray-600 mb-4">Clases de boxeo en Gijón para aprender el arte de golpear y no ser golpeado. Mejora tu resistencia, reflejos y confianza con un deporte noble y eficaz.</p>
+                        <div class="flex justify-between items-center">
+                            <a href="#contact" class="text-red-600 hover:text-red-800 font-semibold">Más información →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                    <div>
+                         <img src="images/grappling-adcc-pelea-entrenamiento.jpg" alt="Clase de jiujitsu y grappling en Beltza" class="w-full h-48 object-cover">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Grappling</h3>
+                        <p class="text-gray-600 mb-4">Clases de jiujitsu sin kimono en Gijón, centradas en la lucha, los derribos y las llaves de pierna. Ideal para complementar otras artes marciales o MMA.</p>
+                        <div class="flex justify-between items-center">
+                            <a href="#contact" class="text-red-600 hover:text-red-800 font-semibold">Más información →</a>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </section>
+<!-- About Section -->
+<section id="about" class="py-20 bg-white">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Sobre nosotros</h2>
+      <div class="w-24 h-1 bg-red-600 mx-auto"></div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-10 items-center justify-center">
+      <!-- Texto -->
+      <div class="text-center md:text-left">
+        <h3 class="text-2xl font-bold mb-4">Nun ye solo hosties</h3>
+        <p class="text-gray-600 mb-4">
+  En Beltza, somos una asociación deportiva y cultural en Asturias especializada en jiujitsu, boxeo y artes marciales. A través de nuestras clases y entrenamientos promovemos valores como el respeto, la disciplina, la inclusión, el apoyo mutuo y la competitividad sana. 
+  Nuestra misión también incluye recuperar y preservar las luchas y tradiciones identitarias asturianas. 
+  Si buscas un gimnasio de jiujitsu y boxeo en Asturias, Beltza es tu mejor opción para entrenar con profesionales y formar parte de una comunidad apasionada por los deportes de contacto.
+
+        </p>
+      </div>
+
+      <!-- Imagen -->
+      <div class="flex justify-center md:justify-end">
+        <img
+          src="images/beltza.jpg"
+          alt="Gimnasio Beltza de jiujitsu, boxeo y artes marciales en Asturias"
+          class="rounded-lg shadow-xl w-full md:w-3/4"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Contáctanos</h2>
+                <div class="w-24 h-1 bg-red-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-10">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">¡No dudes en preguntarnos!</h3>
+                    <p class="text-gray-600 mb-8">Rellena el formulario o ponte en contacto con el teléfono para saber sobre nuestras tarifas y poder probar una clase gratis.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-red-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-map-marker-alt text-red-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Ubicación</h4>
+                                <p class="text-gray-600">C/San Francisco de Asís 22(Coto-Ceares), Gijón, Asturias</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-red-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-phone-alt text-red-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Teléfono</h4>
+                                <p class="text-gray-600">685 47 66 67</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-red-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-envelope text-red-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Correo</h4>
+                                <p class="text-gray-600">beltzagym@gmail.com</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <form action="https://formspree.io/f/mldnvywk" method="POST" class="space-y-4">
+                        <div>
+                            <label for="name" class="block font-medium mb-1">Nombre</label>
+                            <input type="text" id="name" required class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-500">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block font-medium mb-1">Correo</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-500">
+                        </div>
+                        
+                        <div>
+                            <label for="phone" class="block font-medium mb-1">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-500">
+                        </div>
+                        
+                        <div>
+                            <label for="program" class="block font-medium mb-1">Actividades</label>
+                            <select id="program" name="program" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-500">
+                                <option value="">Selecciona una actividad</option>
+                                <option value="bjj">Jiu-Jitsu/Grappling</option>
+                                <option value="boxing">Boxeo</option>
+
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block font-medium mb-1">Mensaje</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-4 rounded transition duration-300">
+                          Prueba la to primera clase
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-10">
+                <div>
+                    <div>
+                        <a href="#home">
+                         <img src="images/beltza-512x512.png" alt="Gimnasio Beltza de Jiujitsu Grappling y boxeo" class="h-16 w-auto object-contain">
+                        </a>
+                    </div>
+                    <p class="text-gray-400">Aprende l'arte de lluchar.</p>
+                    <div class="flex space-x-4 mt-6 text-gray-400">
+                        <a href="https://www.instagram.com/beltza_dolores/" class="hover:text-red-600"><i class="fab fa-instagram"></i></a>
+
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Secciones</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-red-600 transition">Inicio</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-red-600 transition">Sobre nosotros</a></li>
+                        <li><a href="#programs" class="text-gray-400 hover:text-red-600 transition">Actividades</a></li>
+                        <li><a href="privacy-policy.html" class="text-gray-400 hover:text-red-600 transition">Politica de privacidad</a></li>
+
+                        <li><a href="#schedule" class="text-gray-400 hover:text-red-600 transition">Horario</a></li>
+                    </ul>
+                </div>
+                <div>
+
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Dónde estamos</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.526999049807!2d-5.6554402999999995!3d43.53305539999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd367c863b9bd831%3A0xebf7c322dc3d6b16!2sC.%20San%20Francisco%20de%20As%C3%ADs%2C%2022%2C%20Gijon-Este%2C%2033205%20Gij%C3%B3n%2C%20Asturias!5e0!3m2!1ses!2ses!4v1751618677099!5m2!1ses!2ses"
+                            width="100%"
+                            height="200"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                
+
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Beltza Bjj-Boxeo.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-red-600 text-white p-3 rounded-full shadow-lg hidden">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+<!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"dark","language":"es","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"https://www.beltza.es"});
+});
+</script>
+
+<noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed Generator</a></noscript>
+<!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+
+
+
+
+
+<!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+
+<a href="#" id="open_preferences_center">Update cookies preferences</a>
+
+
+
+
+
+</body>
+
+</html>
